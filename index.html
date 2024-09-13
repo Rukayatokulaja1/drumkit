@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drumkit challenge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rukky's awesome drumkit</h1>
+    <div id="wrapper">
+        <div class="key" data-key="65">
+            <button id="hihat">hi-hat</button>
+            <h2>A</h2>
+            <h2>hi-hat</h2>
+        </div>
+        <div class="key" data-key="70">
+            <button id ="tom">tom</button>
+            <h2>F</h2>
+            <h2>tom</h2>
+        </div> 
+        <div class="key" data-key="82">
+            <button id ="ride">ride</button>
+            <h2>R</h2>
+            <h2>ride</h2>
+        </div> <div class="key" data-key="79">
+            <button id ="tink">tink</button>
+            <h2>O</h2>
+            <h2>tink</h2>
+        </div> <div class="key" data-key="66">
+            <button id ="kick">kick</button>
+            <h2>B</h2>
+            <h2>kick</h2>
+        </div>
+    </div>
+    <audio data-key="65" src="./sounds/hihat.wav"></audio>
+    <audio data-key="70" src="./sounds/tom.wav"></audio>
+    <audio data-key="82" src="./sounds/ride.wav"></audio>
+    <audio data-key="79" src="./sounds/tink.wav"></audio>
+    <audio data-key="66" src="./sounds/kick.wav"></audio>
+  
+    <script src="script.js"></script>
+</body>
+</html>
